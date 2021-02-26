@@ -20,7 +20,7 @@ Deploy link: [Click here](https://moveit-nlw-fabriciolinhares.vercel.app/)
 - [x] Finish countdown buttons design.
 - [ ] Fix mobile design.
 - [ ] Change user infos with github username, using [api.github](https://api.github.com/users/FabricioLinhares).
-- [ ] Save level and experience, using [local storage](https://developer.mozilla.org/pt-BR/docs/Web/API/Storage).
+- [x] ---Save level and experience, using [js-cookies](https://github.com/js-cookie/js-cookie).---
 - [ ] Account login system.
 - [ ] Rank feature.
-- [ ] Improve home website design like [NLW cover](https://www.figma.com/file/gmKGiFg38f19ScNpPaw6tq/Move.it-1.0-(Copy)?node-id=2%3A3).
+- [ ] Improve home website design like [NLW cover](<https://www.figma.com/file/gmKGiFg38f19ScNpPaw6tq/Move.it-1.0-(Copy)?node-id=2%3A3>).
