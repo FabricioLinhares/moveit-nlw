@@ -8,6 +8,7 @@ Deploy link: [Click here](https://moveit-nlw-fabriciolinhares.vercel.app/)
 - [ReactJS](https://reactjs.org/)
 - [NextJS](https://nextjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
+- [js-cookie](https://github.com/js-cookie/js-cookie)
 
 ### Scripts
 
