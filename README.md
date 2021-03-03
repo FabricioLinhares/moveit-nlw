@@ -24,3 +24,6 @@ Deploy link: [Click here](https://moveit-nlw-fabriciolinhares.vercel.app/)
 - [ ] Account login system.
 - [ ] Rank feature.
 - [ ] Improve home website design like [NLW cover](<https://www.figma.com/file/gmKGiFg38f19ScNpPaw6tq/Move.it-1.0-(Copy)?node-id=2%3A3>).
+  - [x] Login page
+  - [ ] Rank page
+  - [ ] Home page

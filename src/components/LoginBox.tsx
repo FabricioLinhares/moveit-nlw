@@ -1,6 +1,16 @@
+import { useState } from "react";
+import Link from "next/link";
 import styles from "../styles/components/LoginBox.module.css";
 
 export default function LoginBox() {
+  const [username, setUsername] = useState("");
+
+  function handleChangeUsername(event) {
+    const name = event.target.value;
+
+    setUsername(name);
+  }
+
   return (
     <div className={styles.loginBoxContainer}>
       <h2>Bem-vindo</h2>
@@ -15,10 +25,14 @@ export default function LoginBox() {
             id="username"
             placeholder="Digite seu username"
             required
+            value={username}
+            onChange={handleChangeUsername}
           />
-          <button>
-            <img src="/icons/send.svg" alt="enviar" />
-          </button>
+          <Link href="/home">
+            <a>
+              <img src="/icons/send.svg" alt="enviar" />
+            </a>
+          </Link>
         </div>
       </div>
     </div>
