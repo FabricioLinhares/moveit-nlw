@@ -1,0 +1,69 @@
+.loginBoxContainer {
+  width: 100%;
+  max-width: 440px;
+}
+
+.loginBoxContainer h2 {
+  color: var(--white);
+  margin-bottom: 1.5rem;
+}
+
+.loginBoxContainer .subTitle {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.5rem;
+}
+
+.loginBoxContainer .subTitle img {
+  margin-right: 1.5rem;
+}
+
+.loginBoxContainer .loginInfo {
+  display: inline-flex;
+  height: 5rem;
+  width: 100%;
+}
+
+.loginBoxContainer .loginInfo input {
+  padding: 1.5rem 2rem;
+  border-radius: 5px 0 0 5px;
+  border: 0;
+
+  height: 100%;
+  width: 100%;
+
+  color: var(--white);
+  background: linear-gradient(
+    90deg,
+    var(--blue-dark) 0%,
+    rgba(73, 83, 184, 0.2) 100%
+  );
+}
+
+.loginBoxContainer .loginInfo input::placeholder {
+  color: var(--text-highlight);
+  opacity: 1;
+}
+
+.loginBoxContainer .loginInfo input:-ms-input-placeholder {
+  color: var(--text-highlight);
+}
+
+.loginBoxContainer .loginInfo input::-ms-input-placeholder {
+  color: var(--text-highlight);
+}
+
+.loginBoxContainer .loginInfo button {
+  height: 100%;
+  padding: 1.75rem 1.75rem;
+  border: 0;
+  border-radius: 0 5px 5px 0;
+
+  background-color: var(--blue-dark);
+
+  transition: background-color 0.2s;
+}
+
+.loginBoxContainer .loginInfo input:valid ~ button {
+  background-color: var(--green);
+}
