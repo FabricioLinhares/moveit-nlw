@@ -18,7 +18,7 @@ Deploy link: [Click here](https://moveit-nlw-fabriciolinhares.vercel.app/)
 ### Improvements
 
 - [x] Finish countdown buttons design.
-- [ ] Fix mobile design.
+- [x] Fix mobile design.
 - [ ] Change user infos with github username, using [api.github](https://api.github.com/users/FabricioLinhares).
 - [x] ---Save level and experience, using [js-cookies](https://github.com/js-cookie/js-cookie).---
 - [ ] Account login system.
